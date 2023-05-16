@@ -1,0 +1,272 @@
+[
+    {
+        "number": 1,
+        "name": {
+            "first": "Franco",
+            "last": "Armani"
+        },
+        "age": 36,
+        "position": "Goalkeeper",
+        "team": "River Plate"
+    },
+    {
+        "number": 12,
+        "name": {
+            "first": "Geronimo",
+            "last": "Rulli"
+        },
+        "age": 30,
+        "position": "Goalkeeper",
+        "team": "Villareal"
+    },
+    {
+        "number": 23,
+        "name": {
+            "first": "Emiliano",
+            "last": "Martinez"
+        },
+        "age": 30,
+        "position": "Goalkeeper",
+        "team": "Aston Villa"
+    },
+    {
+        "number": 2,
+        "name": {
+            "first": "Juan",
+            "last": "Foyth"
+        },
+        "age": 24,
+        "position": "Defender",
+        "team": "Villareal"
+    },
+    {
+        "number": 3,
+        "name": {
+            "first": "Nicolas",
+            "last": "Tagliafico"
+        },
+        "age": 30,
+        "position": "Defender",
+        "team": "Lyon"
+    },
+    {
+        "number": 4,
+        "name": {
+            "first": "Gonzalo",
+            "last": "Montiel"
+        },
+        "age": 25,
+        "position": "Defender",
+        "team": "Sevilla"
+    },
+    {
+        "number": 6,
+        "name": {
+            "first": "German",
+            "last": "Pezzella"
+        },
+        "age": 31,
+        "position": "Defender",
+        "team": "Real Betis"
+    },
+    {
+        "number": 8,
+        "name": {
+            "first": "Marcos",
+            "last": "Acuña"
+        },
+        "age": 31,
+        "position": "Defender",
+        "team": "Sevilla"
+    },
+    {
+        "number": 13,
+        "name": {
+            "first": "Cristian",
+            "last": "Romero"
+        },
+        "age": 24,
+        "position": "Defender",
+        "team": "Tottemham"
+    },
+    {
+        "number": 19,
+        "name": {
+            "first": "Nicolas",
+            "last": "Otamendi"
+        },
+        "age": 34,
+        "position": "Defender",
+        "team": "Benfica"
+    },
+    {
+        "number": 25,
+        "name": {
+            "first": "Lisandro",
+            "last": "Martinez"
+        },
+        "age": 24,
+        "position": "Defender",
+        "team": "Manchester United"
+    },
+    {
+        "number": 26,
+        "name": {
+            "first": "Nahuel",
+            "last": "Molina"
+        },
+        "age": 24,
+        "position": "Defender",
+        "team": "Atletico de Madrid"
+    },
+    {
+        "number": 5,
+        "name": {
+            "first": "Leandro",
+            "last": "Paredez"
+        },
+        "age": 28,
+        "position": "Midfield",
+        "team": "Juventud"
+    },
+    {
+        "number": 7,
+        "name": {
+            "first": "Rodrigo",
+            "last": "De Paul"
+        },
+        "age": 28,
+        "position": "Midfield",
+        "team": "Atletico de Madrid"
+    },
+    {
+        "number": 14,
+        "name": {
+            "first": "Exequiel",
+            "last": "Palacios"
+        },
+        "age": 24,
+        "position": "Midfield",
+        "team": "Bayern Leverkusen"
+    },
+    {
+        "number": 17,
+        "name": {
+            "first": "Alejandro",
+            "last": "Gomez"
+        },
+        "age": 34,
+        "position": "Midfield",
+        "team": "Sevilla"
+    },
+    {
+        "number": 18,
+        "name": {
+            "first": "Guido",
+            "last": "Rodriguez"
+        },
+        "age": 28,
+        "position": "Midfield",
+        "team": "Real Betis"
+    },
+    {
+        "number": 20,
+        "name": {
+            "first": "Alexis",
+            "last": "Mac Allister"
+        },
+        "age": 23,
+        "position": "Goalkeeper",
+        "team": "Brighton"
+    },
+    {
+        "number": 24,
+        "name": {
+            "first": "Enzo",
+            "last": "Fernandez"
+        },
+        "age": 21,
+        "position": "Midfield",
+        "team": "Chelsea"
+    },
+    {
+        "number": 9,
+        "name": {
+            "first": "Julian",
+            "last": "Alvarez"
+        },
+        "age": 21,
+        "position": "Forward",
+        "team": "Manchester City"
+    },
+    {
+        "number": 10,
+        "name": {
+            "first": "Lionel",
+            "last": "Messi"
+        },
+        "age": 35,
+        "position": "Forward",
+        "team": "Paris Saint-Germain"
+    },
+    {
+        "number": 11,
+        "name": {
+            "first": "Angel",
+            "last": "Di Maria"
+        },
+        "age": 34,
+        "position": "Forward",
+        "team": "Juventud"
+    },
+    {
+        "number": 15,
+        "name": {
+            "first": "Angel",
+            "last": "Correa"
+        },
+        "age": 27,
+        "position": "Forward",
+        "team": "Atletico de Madrid"
+    },
+    {
+        "number": 16,
+        "name": {
+            "first": "Thiago",
+            "last": "Almada"
+        },
+        "age": 21,
+        "position": "Forward",
+        "team": "Atlanta United"
+    },
+    {
+        "number": 21,
+        "name": {
+            "first": "Paulo",
+            "last": "Dybala"
+        },
+        "age": 29,
+        "position": "Forward",
+        "team": "Roma"
+    },
+    {
+        "number": 22,
+        "name": {
+            "first": "Lautaro",
+            "last": "Martinez"
+        },
+        "age": 25,
+        "position": "Forward",
+        "team": "Internazionale"
+    },
+    {
+        "number": "-",
+        "name": {
+            "first": "Lionel",
+            "last": "Scaloni"
+        },
+        "age": 45,
+        "position": "Coach",
+        "team": "Argentina"
+    }
+]

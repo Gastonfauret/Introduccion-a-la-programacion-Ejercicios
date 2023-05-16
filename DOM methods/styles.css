@@ -1,0 +1,17 @@
+.background {
+    background-color:aquamarine;
+};
+
+p {
+    font-size: 40px;
+};
+
+.rojo {
+    color: red;
+    font-size: 50px; 
+}
+
+.boton {
+    color: red;
+    font-weight: 900;
+}
