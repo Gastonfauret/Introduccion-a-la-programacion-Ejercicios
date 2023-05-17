@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+}
+
+#cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2.6em;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+    border-radius: 1em;
+    height: 15em;
+    width: 17em;
+    margin: 1em;
+}
