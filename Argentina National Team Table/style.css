@@ -1,0 +1,17 @@
+#tableContainer {
+    border: black solid 0.5px;
+}
+
+th{
+    text-align: center;
+    background-color: lightblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+td{
+    text-align: center;
+    background-color: whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}

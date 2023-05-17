@@ -8,8 +8,7 @@ datos.forEach(data =>{
     let celda_nombre = document.createElement('td');//creamos la celda que formara la columna nombre
     celda_nombre.textContent = `${data.name.first} ${data.name.last}`;//cargamos en la celda los datos que necesitamos del archivo json
     fila.appendChild(celda_nombre);//cargamos en la celda los datos que necesitamos del archivo json
-
-
+    
     let celda_domicilio = document.createElement('td');//creamos la celda que formara la columna domicilio
     celda_domicilio.textContent = `${data.location.street.number} ${data.location.street.name}`;//cargamos en la celda los datos que necesitamos del archivo json
     fila.appendChild(celda_domicilio);//cargamos en la celda los datos que necesitamos del archivo json

@@ -3,261 +3,444 @@
         "number": 1,
         "name": {
             "first": "Franco",
+            "second": "-",
             "last": "Armani"
         },
         "age": 36,
         "position": "Goalkeeper",
-        "team": "River Plate"
+        "team": "River Plate",
+        "place of Birth": {
+            "city": "Casilda",
+            "province": "Santa Fe"
+        },
+        "matches played": 0,
+        "goals": 0
     },
     {
         "number": 12,
         "name": {
             "first": "Geronimo",
+            "second": "-",
             "last": "Rulli"
         },
         "age": 30,
         "position": "Goalkeeper",
-        "team": "Villareal"
+        "team": "Villareal",
+        "place of Birth": {
+            "city": "La Plata",
+            "province": "Buenos Aires"
+        },
+        "matches played": 0,
+        "goals": 0
     },
     {
         "number": 23,
         "name": {
-            "first": "Emiliano",
+            "first": "Damian",
+            "second": "Emiliano",
             "last": "Martinez"
         },
         "age": 30,
         "position": "Goalkeeper",
-        "team": "Aston Villa"
+        "team": "Aston Villa",
+        "place of Birth": {
+            "city": "Mar del Plata",
+            "province": "Buenos Aires"
+        },
+        "matches played": 7,
+        "goals": -8
     },
     {
         "number": 2,
         "name": {
             "first": "Juan",
+            "second": "Marcos",
             "last": "Foyth"
         },
         "age": 24,
         "position": "Defender",
-        "team": "Villareal"
+        "team": "Villareal",
+        "place of Birth": {
+            "city": "La Plata",
+            "province": "Buenos Aires"
+        },
+        "matches played": 0,
+        "goals": 0
     },
     {
         "number": 3,
         "name": {
             "first": "Nicolas",
+            "second": "Alejandro",
             "last": "Tagliafico"
         },
         "age": 30,
         "position": "Defender",
-        "team": "Lyon"
+        "team": "Lyon",
+        "place of Birth": {
+            "city": "Rafael Calzada",
+            "province": "Buenos Aires"
+        },
+        "matches played": 6,
+        "goals": 0
     },
     {
         "number": 4,
         "name": {
             "first": "Gonzalo",
+            "second": "Ariel",
             "last": "Montiel"
         },
         "age": 25,
         "position": "Defender",
-        "team": "Sevilla"
+        "team": "Sevilla",
+        "place of Birth": {
+            "city": "Virrey Del Pino",
+            "province": "Buenos Aires"
+        },
+        "matches played": 1,
+        "goals": 0
     },
     {
         "number": 6,
         "name": {
             "first": "German",
+            "second": "Alejo",
             "last": "Pezzella"
         },
         "age": 31,
         "position": "Defender",
-        "team": "Real Betis"
+        "team": "Real Betis",
+        "place of Birth": {
+            "city": "La Plata",
+            "province": "Buenos Aires"
+        },
+        "matches played": 3,
+        "goals": 0
     },
     {
         "number": 8,
         "name": {
             "first": "Marcos",
+            "second": "Javier",
             "last": "Acuña"
         },
         "age": 31,
         "position": "Defender",
-        "team": "Sevilla"
+        "team": "Sevilla",
+        "place of Birth": {
+            "city": "Zapala",
+            "province": "Neuquen"
+        },
+        "matches played": 6,
+        "goals": 0
     },
     {
         "number": 13,
         "name": {
             "first": "Cristian",
+            "second": "Gabriel",
             "last": "Romero"
         },
         "age": 24,
         "position": "Defender",
-        "team": "Tottemham"
+        "team": "Tottemham",
+        "place of Birth": {
+            "city": "Cordoba",
+            "province": "Cordoba"
+        },
+        "matches played": 7,
+        "goals": 0
     },
     {
         "number": 19,
         "name": {
             "first": "Nicolas",
+            "second": "Hernan Gonzalo",
             "last": "Otamendi"
         },
         "age": 34,
         "position": "Defender",
-        "team": "Benfica"
+        "team": "Benfica",
+        "place of Birth": {
+            "city": "Ciudad Autonoma",
+            "province": "Buenos Aires"
+        },
+        "matches played": 7,
+        "goals": 0
     },
     {
         "number": 25,
         "name": {
             "first": "Lisandro",
+            "second":"-",
             "last": "Martinez"
         },
         "age": 24,
         "position": "Defender",
-        "team": "Manchester United"
+        "team": "Manchester United",
+        "place of Birth": {
+            "city": "Gualeguay",
+            "province": "Entre Rios"
+        },
+        "matches played": 5,
+        "goals": 0
     },
     {
         "number": 26,
         "name": {
             "first": "Nahuel",
-            "last": "Molina"
+            "second":"-",
+            "last": "Molina Lucero"
         },
         "age": 24,
         "position": "Defender",
-        "team": "Atletico de Madrid"
+        "team": "Atletico de Madrid",
+        "place of Birth": {
+            "city": "Embalse",
+            "province": "Cordoba"
+        },
+        "matches played": 7,
+        "goals": 1
     },
     {
         "number": 5,
         "name": {
             "first": "Leandro",
-            "last": "Paredez"
+            "second": "Daniel",
+            "last": "Paredez Benitez"
         },
         "age": 28,
         "position": "Midfield",
-        "team": "Juventud"
+        "team": "Juventud",
+        "place of Birth": {
+            "city": "San Justo",
+            "province": "Buenos Aires"
+        },
+        "matches played": 5,
+        "goals": 0
+        
     },
     {
         "number": 7,
         "name": {
             "first": "Rodrigo",
+            "second": "Javier",
             "last": "De Paul"
         },
         "age": 28,
         "position": "Midfield",
-        "team": "Atletico de Madrid"
+        "team": "Atletico de Madrid",
+        "place of Birth": {
+            "city": "Sarandi",
+            "province": "Buenos Aires"
+        },
+        "matches played": 7,
+        "goals": 0
     },
     {
         "number": 14,
         "name": {
             "first": "Exequiel",
+            "second": "Alejandro",
             "last": "Palacios"
         },
         "age": 24,
         "position": "Midfield",
-        "team": "Bayern Leverkusen"
+        "team": "Bayern Leverkusen",
+        "place of Birth": {
+            "city": "Famailla",
+            "province": "Tucuman"
+        },
+        "matches played": 3,
+        "goals": 0
     },
     {
         "number": 17,
         "name": {
             "first": "Alejandro",
+            "second": "Dario",
             "last": "Gomez"
         },
         "age": 34,
         "position": "Midfield",
-        "team": "Sevilla"
+        "team": "Sevilla",
+        "place of Birth": {
+            "city": "Ciudad Autonoma",
+            "province": "Buenos Aires"
+        },
+        "matches played": 2,
+        "goals": 0
     },
     {
         "number": 18,
         "name": {
             "first": "Guido",
+            "second": "-",
             "last": "Rodriguez"
         },
         "age": 28,
         "position": "Midfield",
-        "team": "Real Betis"
+        "team": "Real Betis",
+        "place of Birth": {
+            "city": "Saenz Peña",
+            "province": "Buenos Aires"
+        },
+        "matches played": 1,
+        "goals": 0
     },
     {
         "number": 20,
         "name": {
             "first": "Alexis",
+            "second": "-",
             "last": "Mac Allister"
         },
         "age": 23,
-        "position": "Goalkeeper",
-        "team": "Brighton"
+        "position": "Midfield",
+        "team": "Brighton",
+        "place of Birth": {
+            "city": "Santa Rosa",
+            "province": "La Pampa"
+        },
+        "matches played": 6,
+        "goals": 1
     },
     {
         "number": 24,
         "name": {
             "first": "Enzo",
+            "second": "Jeremias",
             "last": "Fernandez"
         },
         "age": 21,
         "position": "Midfield",
-        "team": "Chelsea"
+        "team": "Chelsea",
+        "place of Birth": {
+            "city": "San Martin",
+            "province": "Buenos Aires"
+        },
+        "matches played": 7,
+        "goals": 1
     },
     {
         "number": 9,
         "name": {
             "first": "Julian",
+            "second":"-",
             "last": "Alvarez"
         },
         "age": 21,
         "position": "Forward",
-        "team": "Manchester City"
+        "team": "Manchester City",
+        "place of Birth": {
+            "city": "Calchin",
+            "province": "Cordoba"
+        },
+        "matches played": 7,
+        "goals": 4
     },
     {
         "number": 10,
         "name": {
             "first": "Lionel",
-            "last": "Messi"
+            "second": "Andres",
+            "last": "Messi Cuccittini"
         },
         "age": 35,
         "position": "Forward",
-        "team": "Paris Saint-Germain"
+        "team": "Paris Saint-Germain",
+        "place of Birth": {
+            "city": "Rosario",
+            "province": "Santa Fe"
+        },
+        "matches played": 7,
+        "goals": 7
     },
     {
         "number": 11,
         "name": {
             "first": "Angel",
+            "second": "Fabian",
             "last": "Di Maria"
         },
         "age": 34,
         "position": "Forward",
-        "team": "Juventud"
+        "team": "Juventud",
+        "place of Birth": {
+            "city": "Rosario",
+            "province": "Santa Fe"
+        },
+        "matches played": 5,
+        "goals": 1
     },
     {
         "number": 15,
         "name": {
             "first": "Angel",
-            "last": "Correa"
+            "second": "Martin",
+            "last": "Correa Martinez"
         },
         "age": 27,
         "position": "Forward",
-        "team": "Atletico de Madrid"
+        "team": "Atletico de Madrid",
+        "place of Birth": {
+            "city": "Rosario",
+            "province": "Santa Fe"
+        },
+        "matches played": 1,
+        "goals": 0
     },
     {
         "number": 16,
         "name": {
             "first": "Thiago",
+            "second": "Ezequiel",
             "last": "Almada"
         },
         "age": 21,
         "position": "Forward",
-        "team": "Atlanta United"
+        "team": "Atlanta United",
+        "place of Birth": {
+            "city": "Ciudadela",
+            "province": "Buenos Aires"
+        },
+        "matches played": 1,
+        "goals": 0
     },
     {
         "number": 21,
         "name": {
             "first": "Paulo",
+            "second": "Exequiel",
             "last": "Dybala"
         },
         "age": 29,
         "position": "Forward",
-        "team": "Roma"
+        "team": "Roma",
+        "place of Birth": {
+            "city": "Laguna Larga",
+            "province": "Cordoba"
+        },
+        "matches played": 2,
+        "goals": 0
     },
     {
         "number": 22,
         "name": {
             "first": "Lautaro",
-            "last": "Martinez"
+            "second": "Javier",
+            "last": "Martinez Gutierrez"
         },
         "age": 25,
         "position": "Forward",
-        "team": "Internazionale"
+        "team": "Internazionale",
+        "place of Birth": {
+            "city": "Bahia Blanca",
+            "province": "Buenos Aires"
+        },
+        "matches played": 6,
+        "goals": 0
     },
     {
         "number": "-",
@@ -267,6 +450,12 @@
         },
         "age": 45,
         "position": "Coach",
-        "team": "Argentina"
+        "team": "Argentina",
+        "place of Birth": {
+            "city": "Pujato",
+            "province": "Santa Fe"
+        },
+        "matches played": 0,
+        "goals": 0
     }
 ]
