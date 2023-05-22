@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 16%;
+    margin-bottom: 16%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#calculator-container {
+    border: solid black 1px;
+    background-color: aqua;
+    width: 230px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.7em;
+    justify-content: space-evenly;
+}
+
+#equal {
+    width: 170px;
+    border: black solid 0.1px;
+    border-radius: 2px;
+    width: 170px;
+    height: 22px;
+}
+
+#numOne, #numTwo  {
+    text-align: center;
+    border: black solid 0.1px;
+    border-radius: 2px;
+    width: 170px;
+    height: 22px;
+}
+
+#chosen {
+    text-align: center;
+    border: black solid 0.1px;
+    border-radius: 2px;
+    width: 170px;
+    height: 22px;
+}
+
+#math-operations {
+    display: flex;
+    width: 170px;
+    justify-content: space-between;
+}
+
+#suma, #resta, #multiplicacion, #division {
+    width: 40px;    
+}
+
+#result {
+    width: 173px;
+    height: 25px;
+    background-color: white;
+    border-radius: 2px;
+    border: black solid 0.1px;
+    margin: 0px;
+    text-align: center;
+}

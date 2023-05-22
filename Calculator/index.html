@@ -1,20 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Calculator</title>
 </head>
+
 <body>
-    <input type="number" id="numOne">
-    <input type="number" id="numTwo">
-    <input type="string" id="chosen">
+    <div id="calculator-container">
+        <input type="number" id="numOne" />
+        <input type="number" id="numTwo" />
 
-    <button id="operation">=</button>
+        <div id="math-operations">
+            <button id="suma">+</button>
+            <button id="resta">-</button>
+            <button id="division">/</button>
+            <button id="multiplicacion">*</button>
+        </div>
+        
+        <p id="result"></p>        
 
-    <p id="result"></p>
+        <button id="equal">=</button>        
+    </div>
 
-    <script src="./index.js"></script>    
+    <script src="./index.js"></script>
 </body>
+
 </html>
