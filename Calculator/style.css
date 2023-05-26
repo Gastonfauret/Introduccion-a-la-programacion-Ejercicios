@@ -4,7 +4,44 @@ body {
     align-items: center;
     margin-top: 12%;
     margin-bottom: 12%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 0.5s ease-in-out;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    width: 40px;
+    height: 20px;
+    background-color: #434343;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+input[type="checkbox"]:checked {
+    background-color: black;
+}
+
+input[type="checkbox"]::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    transition: 0.7s ease;
+}
+
+input[type="checkbox"]:checked::before {
+    transform: translate(20px);
+}
+
+.modoOscuro {
+    background-color: #252525;
+    color: aliceblue;
 }
 
 #calculator-container {
