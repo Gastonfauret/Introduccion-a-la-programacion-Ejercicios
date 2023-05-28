@@ -14,30 +14,30 @@
 
     <div id="calculator-container">
         <div class="visor">
-            <p id="parrafoUno"></p>
-            <p id="parrafoDos"></p>
+            <input id="numUno">
+            <input id="numDos">
         </div>
 
         <div id="numbers-container">
-            <button class="btn-style" id="siete">7</button>
-            <button class="btn-style" id="ocho">8</button>
-            <button class="btn-style" id="nueve">9</button>
-            <button class="btn-style" id="suma">+</button>
+            <button class="btn-style" id="siete" onclick="numDos.value += '7'">7</button>
+            <button class="btn-style" id="ocho" onclick="numDos.value += '8'">8</button>
+            <button class="btn-style" id="nueve" onclick="numDos.value += '9'">9</button>
+            <button class="btn-style" id="suma" onclick="suma()">+</button>
 
-            <button class="btn-style" id="cuatro">4</button>
-            <button class="btn-style" id="cinco">5</button>
-            <button class="btn-style" id="seis">6</button>
-            <button class="btn-style" id="resta">-</button>
+            <button class="btn-style" id="cuatro" onclick="numDos.value += '4'">4</button>
+            <button class="btn-style" id="cinco" onclick="numDos.value += '5'">5</button>
+            <button class="btn-style" id="seis" onclick="numDos.value += '6'">6</button>
+            <button class="btn-style" id="resta" onclick="resta()">-</button>
             
-            <button class="btn-style" id="uno">1</button>
-            <button class="btn-style" id="dos">2</button>
-            <button class="btn-style" id="tres">3</button>
-            <button class="btn-style" id="division">/</button>
+            <button class="btn-style" id="uno" onclick="numDos.value += '1'">1</button>
+            <button class="btn-style" id="dos" onclick="numDos.value += '2'">2</button>
+            <button class="btn-style" id="tres" onclick="numDos.value += '3'">3</button>
+            <button class="btn-style" id="division" onclick="division()">/</button>
             
-            <button class="btn-style" id="borra">AC</button>
-            <button class="btn-style" id="cero">0</button>
-            <button class="btn-style" id="igual">=</button>            
-            <button class="btn-style" id="multiplicacion">*</button>
+            <button class="btn-style" id="borra" onclick="borrar()">AC</button>
+            <button class="btn-style" id="cero" onclick="numDos.value += '0'">0</button>
+            <button class="btn-style" id="igual" onclick="igual()">=</button>            
+            <button class="btn-style" id="multiplicacion" onclick="multiplicacion()">*</button>
         </div>
     </div>
 

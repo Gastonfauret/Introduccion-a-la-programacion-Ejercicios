@@ -2,8 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 12%;
-    margin-bottom: 12%;
+    margin-top: 14%;
+    margin-bottom: 10%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     transition: 0.5s ease-in-out;
 }
@@ -41,8 +41,7 @@ input[type="checkbox"]:checked::before {
 
 .modoOscuro {
     background-color: #252525;
-    color: aliceblue;
-}
+    }
 
 #calculator-container {
     background-color: aqua;
@@ -52,6 +51,7 @@ input[type="checkbox"]:checked::before {
     flex-direction: column;
     align-items: center;
     border-radius: 0.7em;    
+    margin-top: px;
 }
 
 .visor {
@@ -97,7 +97,7 @@ p {
 }
 
 .btn-mode {
-    margin-top: -100px;
+    margin-top: -71px;
     margin-bottom: 50px;
     background-color: black;
     color: white;
@@ -105,5 +105,11 @@ p {
     border-radius: 10px;
     width: 85px;
     height: 25px;
+}
+
+#numUno, #numDos {
+    border: 0px;
+    background-color: transparent;
+    text-align: right;
 }
 
