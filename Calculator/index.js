@@ -9,6 +9,7 @@ function borrar() {
     numDos.value = '';
 }
 
+//Funcion Igual que Resuelve la operacion matematica y lo grafica en pantalla.
 function igual() {
     numUno.value = numDos.value;
     const result = eval(numDos.value);

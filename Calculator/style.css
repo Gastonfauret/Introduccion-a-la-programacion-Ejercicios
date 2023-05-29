@@ -1,3 +1,4 @@
+/* Estilos del body. */
 body {
     background-color: white;
     display: flex;
@@ -9,6 +10,7 @@ body {
     transition: 0.5s ease-in-out;
 }
 
+/* Propiedades de Estilo del boton de Modo Oscuro. */
 input[type="checkbox"] {
     position: relative;
     width: 40px;
@@ -20,10 +22,12 @@ input[type="checkbox"] {
     transition: 0.5s ease;
 }
 
+/* Funcion cuando el boton este activado: Cambia el fondo a negro. */
 input[type="checkbox"]:checked {
     background-color: black;
 }
 
+/* Estilos del boton cuando este activado el modo Oscuro. */
 input[type="checkbox"]::before {
     content: '';
     position: absolute;
@@ -36,10 +40,12 @@ input[type="checkbox"]::before {
     transition: 0.7s ease;
 }
 
+/* Le damos movimiento a la esfera verde. */
 input[type="checkbox"]:checked::before {
     transform: translate(20px);
 }
 
+/* Definimos los estilos que definiran el modo Oscuro. */
 .modoOscuro {
     background-color: #252525;
     .dark {
@@ -47,6 +53,7 @@ input[type="checkbox"]:checked::before {
     }
 }
 
+/* Estilos del contenedor de la calculadora. */
 .calculator-container {
     background-color: transparent;
     width: 270px;
@@ -58,6 +65,7 @@ input[type="checkbox"]:checked::before {
     box-shadow: 5px 5px 15px gray
 }
 
+/* Estilos del visor de la calculadora. */
 .visor {
     display: flex;
     flex-direction: column;
@@ -70,6 +78,7 @@ input[type="checkbox"]:checked::before {
     background-color: transparent;
 }
 
+/* Estilos del contenedor de las teclas de la calculadora. */
 #numbers-container {
     display: flex;
     width: 210px;
@@ -80,12 +89,7 @@ input[type="checkbox"]:checked::before {
     margin-top: 20px;    
 }
 
-#math-operations {
-    display: flex;
-    width: 170px;
-    justify-content: space-around;
-}
-
+/* Estilos de los botones de la calculadora. */
 .btn-style {
     border-radius: 50%;
     width: 38px;
@@ -94,8 +98,10 @@ input[type="checkbox"]:checked::before {
     font-size: 18px;
     margin: 0.4em;
     background-color: transparent;
+    cursor: pointer;
 }
 
+/* Estilos del contenedor del boton modo Oscuro de la calculadora. */
 .btn-mode {
     margin-top: -71px;
     margin-bottom: 50px;
@@ -106,12 +112,14 @@ input[type="checkbox"]:checked::before {
     height: 25px;
 }
 
+/* Estilos de los inputs de la calculadora. */
 #numUno, #numDos {
     border: 0px;
     background-color: transparent;
     text-align: right;
 }
 
+/* Estilo del segundo input de la calculadora. */
 #numDos {
     font-size: 30px;
 }
