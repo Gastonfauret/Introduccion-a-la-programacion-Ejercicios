@@ -12,32 +12,32 @@
 <body>
     <input type="checkbox" class="btn-mode" onclick="modoDarkLight()">
 
-    <div id="calculator-container">
+    <div class="calculator-container">
         <div class="visor">
-            <input id="numUno">
-            <input id="numDos">
+            <input id="numUno" class="dark">
+            <input id="numDos" class="dark">
         </div>
 
         <div id="numbers-container">
-            <button class="btn-style" id="siete" onclick="numDos.value += '7'">7</button>
-            <button class="btn-style" id="ocho" onclick="numDos.value += '8'">8</button>
-            <button class="btn-style" id="nueve" onclick="numDos.value += '9'">9</button>
-            <button class="btn-style" id="suma" onclick="suma()">+</button>
+            <button class="btn-style dark" id="siete" onclick="numDos.value += '7'">7</button>
+            <button class="btn-style dark" id="ocho" onclick="numDos.value += '8'">8</button>
+            <button class="btn-style dark" id="nueve" onclick="numDos.value += '9'">9</button>
+            <button class="btn-style dark" id="suma" onclick="numDos.value += '+'">+</button>
 
-            <button class="btn-style" id="cuatro" onclick="numDos.value += '4'">4</button>
-            <button class="btn-style" id="cinco" onclick="numDos.value += '5'">5</button>
-            <button class="btn-style" id="seis" onclick="numDos.value += '6'">6</button>
-            <button class="btn-style" id="resta" onclick="resta()">-</button>
+            <button class="btn-style dark" id="cuatro" onclick="numDos.value += '4'">4</button>
+            <button class="btn-style dark" id="cinco" onclick="numDos.value += '5'">5</button>
+            <button class="btn-style dark" id="seis" onclick="numDos.value += '6'">6</button>
+            <button class="btn-style dark" id="resta" onclick="numDos.value += '-'">-</button>
             
-            <button class="btn-style" id="uno" onclick="numDos.value += '1'">1</button>
-            <button class="btn-style" id="dos" onclick="numDos.value += '2'">2</button>
-            <button class="btn-style" id="tres" onclick="numDos.value += '3'">3</button>
-            <button class="btn-style" id="division" onclick="division()">/</button>
+            <button class="btn-style dark" id="uno" onclick="numDos.value += '1'">1</button>
+            <button class="btn-style dark" id="dos" onclick="numDos.value += '2'">2</button>
+            <button class="btn-style dark" id="tres" onclick="numDos.value += '3'">3</button>
+            <button class="btn-style dark" id="division" onclick="numDos.value += '/'">/</button>
             
-            <button class="btn-style" id="borra" onclick="borrar()">AC</button>
-            <button class="btn-style" id="cero" onclick="numDos.value += '0'">0</button>
-            <button class="btn-style" id="igual" onclick="igual()">=</button>            
-            <button class="btn-style" id="multiplicacion" onclick="multiplicacion()">*</button>
+            <button class="btn-style dark" id="borra" onclick="borrar()">C</button>
+            <button class="btn-style dark" id="cero" onclick="numDos.value += '0'">0</button>
+            <button class="btn-style dark" id="igual" onclick="igual()">=</button>            
+            <button class="btn-style dark" id="multiplicacion" onclick="numDos.value += '*'">*</button>
         </div>
     </div>
 

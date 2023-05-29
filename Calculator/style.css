@@ -1,4 +1,5 @@
 body {
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,17 +42,20 @@ input[type="checkbox"]:checked::before {
 
 .modoOscuro {
     background-color: #252525;
+    .dark {
+        color: white;
     }
+}
 
-#calculator-container {
-    background-color: aqua;
+.calculator-container {
+    background-color: transparent;
     width: 270px;
     height: 375px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 0.7em;    
-    margin-top: px;
+    box-shadow: 5px 5px 15px gray
 }
 
 .visor {
@@ -63,12 +67,7 @@ input[type="checkbox"]:checked::before {
     border-radius: 2px;
     justify-content: space-around;
     margin-top: 35px;
-    background-color: aliceblue;
-}
-
-p {
-    margin: 0px;
-    margin-right: 0.5em;
+    background-color: transparent;
 }
 
 #numbers-container {
@@ -92,15 +91,15 @@ p {
     width: 38px;
     height: 38px;
     border: 0px;
-    font-size: 15px;
+    font-size: 18px;
     margin: 0.4em;
+    background-color: transparent;
 }
 
 .btn-mode {
     margin-top: -71px;
     margin-bottom: 50px;
     background-color: black;
-    color: white;
     border: none;
     border-radius: 10px;
     width: 85px;
@@ -113,3 +112,6 @@ p {
     text-align: right;
 }
 
+#numDos {
+    font-size: 30px;
+}
