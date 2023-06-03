@@ -1,3 +1,19 @@
+const form = document.getElementById("form");
+form.addEventListener("submit", handleSubmit);
+function handleSubmit() {
+    const user = new FormData(form);
+    console.log(user.get("fullName"));
+}
+const openModal = document.getElementById("open-modal");
+const modal = document.getElementById("modal");
+const closeModal = document.getElementById("close-modal");
+closeModal.addEventListener("click", () => {
+    modal.close();
+});
+openModal.addEventListener("click", () => {
+    modal.showModal();
+});
+
 const BASE_URL = "https://647a6c1bd2e5b6101db05747.mockapi.io/users";
 //get all resources
 function getAll(url) {
@@ -6,7 +22,6 @@ function getAll(url) {
         .then(data => console.log(data))
         .catch(err => console.error(err));
 }
-getAll(BASE_URL);
 //get resource by id
 function getOne(id) {
     fetch(BASE_URL + `/${id}`)
@@ -14,7 +29,6 @@ function getOne(id) {
         .then(data => console.log(data))
         .catch(err => console.error(err));
 }
-getOne(3);
 //delete one
 function deleteOne(id) {
     fetch(BASE_URL + `/${id}`, {
@@ -56,4 +70,3 @@ function updateOne(id, user) {
         .then(data => console.log(data))
         .catch(err => console.error(err));
 }
-updateOne(88, updatedUser);
