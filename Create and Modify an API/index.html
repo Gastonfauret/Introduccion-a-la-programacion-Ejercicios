@@ -2,23 +2,13 @@
 <html lang="en">
 
 <head>
-    <!-- <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>API REST</title>
-    <span class="pln"> </span>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic" />
-    <span class="pln"> </span>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
-    <span class="pln"> </span>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css" />
-    <span class="pln"> </span> -->
-    <script src="./index.js" defer></script> 
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="./index.js" defer></script>
+    <script src="./funcionalidades.js" defer></script>
 </head>
 
 <body>
-    <p id="arg-squad"></p>
-    <!-- <header>
+    <header>
         <h1>API REST</h1>
         <p>
             Práctica de consumo de recursos a través de endpoints. Métodos GET,
@@ -29,11 +19,30 @@
             <a href="https://mockapi.io" target="_blank">MockAPI</a>
         </p>
     </header>
-    <button id="open-modal">open modal</button>
+
+
+
+    <button id="open-modal">Open Modal</button>
     <dialog id="modal">
         <form action="" method="dialog" id="form">
-            <label for="fullName">Nombre completo
-                <input type="text" id="" name="fullName" required />
+
+            <label for="name">Nombre
+                <input type="text" id="" name="name" required />
+            </label>
+            <label for="lastName">Apellido
+                <input type="text" id="" name="lastName" required />
+            </label>
+            <label for="birth">Fecha de Nacimiento
+                <input type="text" id="" name="birth" required />
+            </label>
+            <label for="gender">Genero
+                <input type="text" id="" name="gender" required />
+            </label>
+            <label for="address">Domicilio
+                <input type="text" id="" name="address" required />
+            </label>
+            <label for="city">Ciudad
+                <input type="text" id="" name="city" required />
             </label>
             <label for="email">Correo Electrónico
                 <input type="email" id="email" name="email" required />
@@ -42,11 +51,12 @@
                 <input type="tel" id="phone" name="phone" required
                     pattern="^(?:(?:00)?549?)?0?(?:11|[2368]\d)(?:(?=\d{0,2}15)\d{2})??\d{8}$" />
             </label>
+
             <input type="submit" value="aceptar" />
             <input type="reset" value="limpiar" />
             <input type="button" value="cancelar" id="close-modal" />
         </form>
-    </dialog> -->
+    </dialog>
 </body>
 
 </html>
