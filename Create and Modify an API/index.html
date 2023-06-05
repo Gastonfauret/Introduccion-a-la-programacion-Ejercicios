@@ -27,34 +27,37 @@
         <form action="" method="dialog" id="form">
 
             <label for="name">Nombre
-                <input type="text" id="" name="name" required />
+                <input class="input-style" type="text" id="name" name="name" required />
             </label>
             <label for="lastName">Apellido
-                <input type="text" id="" name="lastName" required />
+                <input class="input-style" type="text" id="lastName" name="lastName" required />
             </label>
             <label for="birth">Fecha de Nacimiento
-                <input type="text" id="" name="birth" required />
+                <input class="input-style" type="text" id="birth" name="birth" required />
             </label>
             <label for="gender">Genero
-                <input type="text" id="" name="gender" required />
+                <input class="input-style" type="text" id="gender" name="gender" required />
             </label>
             <label for="address">Domicilio
-                <input type="text" id="" name="address" required />
+                <input class="input-style" type="text" id="address" name="address" required />
             </label>
             <label for="city">Ciudad
-                <input type="text" id="" name="city" required />
+                <input class="input-style" type="text" id="city" name="city" required />
             </label>
             <label for="email">Correo Electrónico
-                <input type="email" id="email" name="email" required />
+                <input class="input-style" type="email" id="email" name="email" required />
             </label>
             <label for="phone">Teléfono
-                <input type="tel" id="phone" name="phone" required
+                <input class="input-style" type="tel" id="phone" name="phone" required
                     pattern="^(?:(?:00)?549?)?0?(?:11|[2368]\d)(?:(?=\d{0,2}15)\d{2})??\d{8}$" />
             </label>
 
-            <input type="submit" value="aceptar" />
-            <input type="reset" value="limpiar" />
-            <input type="button" value="cancelar" id="close-modal" />
+            <div class="btn-div">
+                <input class="btn-style" id="btn-submit" type="submit" value="Aceptar" />
+                <input class="btn-style" type="reset" value="Limpiar" />
+                <input class="btn-style" type="button" value="Cancelar" id="close-modal" />
+            </div>
+            
         </form>
     </dialog>
 </body>
