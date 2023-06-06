@@ -8,13 +8,12 @@ const user2 = {
     name: 'Juan P.',
     lastName: 'Alvarez'}
 
-//user1.dataApi(URL);
 //user1.anadirDato(user1);
-//user1.eliminaDato(12);
-//user1.eliminaDato(24);
+//user1.eliminaDato(25);
+
 //user1.actualizaDato(25, user2);
-//user1.buscaPorId(4)
-//user1.dataApi(URL);
+//user1.buscaPorId(10)
+user1.dataApi(URL);
 
 // Funcion Actualiza datos de Usuario Existente.
 // function actualizaDato(id, user) {
@@ -33,22 +32,22 @@ const user2 = {
 //eliminaDato(24); // Elimina un Usuario a traves de Indice dado por parametro.
 //actualizaDato(23, updatedUser)
 
-const form = document.getElementById("form");
+// const form = document.getElementById("form");
 
-form.addEventListener("submit", handleSubmit);
+// form.addEventListener("submit", handleSubmit);
 
-function handleSubmit() {
-    const user = new FormData(form);
-    console.log(user.get("name"));
-}
-const openModal = document.getElementById("open-modal");
-const modal = document.getElementById("modal");
-const closeModal = document.getElementById("close-modal");
+// function handleSubmit() {
+//     const user = new FormData(form);
+//     console.log(user.get("name"));
+// }
+// const openModal = document.getElementById("open-modal");
+// const modal = document.getElementById("modal");
+// const closeModal = document.getElementById("close-modal");
 
-closeModal.addEventListener("click", () => {
-    modal.close();
-});
+// closeModal.addEventListener("click", () => {
+//     modal.close();
+// });
 
-openModal.addEventListener("click", () => {
-    modal.showModal();
-});
+// openModal.addEventListener("click", () => {
+//     modal.showModal();
+// });
