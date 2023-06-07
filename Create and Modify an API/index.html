@@ -4,7 +4,7 @@
 <head>
     <link rel="stylesheet" href="style.css" />
     <script type="module" src="./index.js" defer></script>
-    <script src="./funcionalidades.js" defer></script>
+    <script type="module" src="./funcionalidades.js" defer></script>
 </head>
 
 <body>
@@ -20,7 +20,7 @@
         </p>
     </header>
 
-    <button id="open-modal">Open Modal</button>
+    <button id="open-modal" class="btn-other-style">Open Modal</button>
     <dialog id="modal">
         <form action="" method="dialog" id="form">
 
@@ -52,7 +52,7 @@
 
             <div class="btn-div">
                 <input class="btn-style" id="btn-submit" type="submit" value="Aceptar" />
-                <input class="btn-style" type="reset" value="Limpiar" />
+                <input class="btn-style" id="btn-clean" type="reset" value="Limpiar" />
                 <input class="btn-style" type="button" value="Cancelar" id="close-modal" />
             </div>
             
@@ -60,7 +60,7 @@
     </dialog>
 
     <div class="table-container">
-        <table class="table">
+        <table class="table" cellspacing="30">
             <thead>
                 <tr>
                     <th>Id</th>
@@ -70,7 +70,17 @@
                     <th>City</th>
                 </tr>
             </thead>
+            <tbody id="data">
+            </tbody>
         </table>
+    </div>
+
+    <div id="btn-data">
+        <button class="btn-other-style" id="search">Search</button>
+        <button class="btn-other-style" id="add">Add</button>
+        <button class="btn-other-style" id="erase">Delete</button>
+        <button class="btn-other-style" id="update">Update</button>
+
     </div>
 
 </body>

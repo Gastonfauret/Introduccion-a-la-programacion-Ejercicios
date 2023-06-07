@@ -14,12 +14,23 @@ export class User {
     URL = 'https://647a6c47d2e5b6101db057cf.mockapi.io/users'
 
     //Metodo que realizara diferentes funciones.
-    dataApi(url) {
-        fetch(url) //Realizamos el fetch: Traemos los datos de la API.
+    dataApi(URL) {
+        fetch(URL) //Realizamos el fetch: Traemos los datos de la API.
             .then(res => res.json()) // Recibimos una respuesta y la convertimos en formato Json.
-            .then(data => console.log(data)) // Tomamos la respuesta y la mostramos en consola.          
+            .then(data => mostrarData(data)) // Tomamos la respuesta y la mostramos en consola.          
             .catch(err => console.log(err)) // En caso de a ver un error lo mostramos en consola.
+    
+        const mostrarData = (data) => {
+            console.log(data);
+            let body = '';
+            for(let i = 0; i < data.length; i++) {
+                body += `<tr><td>${data[i].id}</td><td>${data[i].name}</td><td>${data[i].lastName}</td><td>${data[i].gender}</td><td>${data[i].city}</td></tr>`
+            }
+            document.getElementById('data').innerHTML = body;
+        }    
     }
+
+
 
     // Funcion que busca un registro por Id, que pasaremos como parametro.
     buscaPorId(id) {
