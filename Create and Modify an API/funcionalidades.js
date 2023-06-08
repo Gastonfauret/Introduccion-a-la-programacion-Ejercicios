@@ -43,13 +43,60 @@ submitAdd.addEventListener('click', () => {
     user.anadirDato(user);
 });
 
+//-------------------------------------------------------------
+
+const openModalModify = document.getElementById('open-modal-modify');
+const cleanModify = document.getElementById('btn-clean-modify')
+const modalModify = document.getElementById("modal-modify");
+const closeModalModify = document.getElementById("close-modal-modify");
+const submitModify = document.getElementById("btn-submit-modify");
+
+closeModalModify.addEventListener("click", () => {
+    console.log('Boton Cierre de Modal Anda Perfecto');
+    modalModify.close();
+});
+
+cleanModify.addEventListener('click', () => {
+    console.log('Boton Limpiar de Modal Anda Perfecto');
+})
+
+openModalModify.addEventListener("click", () => {
+    console.log('Boton Apertura de Modal Anda Perfecto');
+    modalAdd.showModal();
+});
+
+submitModify.addEventListener('click', () => {
+    const id = document.querySelector('#id');
+    const name = document.querySelector('#name');
+    const lastName = document.querySelector('#lastName');
+    const birth = document.querySelector('#birth');
+    const gender = document.querySelector('#gender');
+    const address = document.querySelector('#address');
+    const city = document.querySelector('#city');
+    const email = document.querySelector('#email');
+    const phone = document.querySelector('#phone');
+    
+    const user1 = {
+        name: name.value,
+        lastName: lastName.value,
+        birth: birth.value,
+        gender: gender.value,
+        address: address.value,
+        city: city.value,
+        email: email.value,
+        phone: phone.value
+    }
+
+    user.actualizaDato(id, user1)
+});
+
 //--------------------------------------------------------------
 const openModalDel = document.getElementById('open-modal-del');
 const cleanDel = document.getElementById('btn-clean-del')
 const modalDel = document.getElementById("modal-del");
 const closeModalDel = document.getElementById("close-modal-del");
 const submitDel = document.getElementById("btn-submit-del");
-const id = document.getElementById("id");
+const idDel = document.getElementById("id-del");
 
 closeModalDel.addEventListener("click", () => {
     console.log('Boton Cierre de Modal Anda Perfecto');
@@ -66,22 +113,22 @@ openModalDel.addEventListener("click", () => {
 });
 
 submitDel.addEventListener('click', () => {
-    user.eliminaDato(id.value);
+    user.eliminaDato(idDel.value);
 });
 
 //--------------------------------------------------------------
 
 const search = document.querySelector('#search');
-const erase = document.querySelector('#erase');
+//const erase = document.querySelector('#erase');
 const update = document.querySelector('#update');
 
 search.addEventListener('click', () => {
     console.log('Boton Search Anda Perfecto');
 });
 
-erase.addEventListener('click', () => {
-    console.log('Boton Erase Anda Perfecto');
-});
+// erase.addEventListener('click', () => {
+//     console.log('Boton Erase Anda Perfecto');
+// });
 
 update.addEventListener('click', () => {
     user.dataApi(URL)

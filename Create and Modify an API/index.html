@@ -22,7 +22,7 @@
 
     <div id="btn-data">
         <button id="open-modal-add" class="btn-other-style">Add</button>
-        <button class="btn-other-style" id="modify">Modify</button>
+        <button class="btn-other-style" id="open-modal-modify">Modify</button>
         <button class="btn-other-style" id="open-modal-del">Delete</button>
         <button class="btn-other-style" id="update">Update</button>
     </div>
@@ -35,6 +35,8 @@
         <form action="" method="dialog" id="form">
 
             <label for="id">Id
+                <input class="input-style" type="text" id="id" name="id" required/>
+            </label>  
                 
             <label for="name">Nombre
                 <input class="input-style" type="text" id="name" name="name" required/>
@@ -76,6 +78,48 @@
 
 <!----------- Modal donde Modifica usuarios ----------->
 
+<dialog id="modal-modify">
+    <form action="" method="dialog" id="form">
+
+        <label for="id">Id
+            <input class="input-style" type="number" id="id" name="id" />
+        </label>  
+
+        <label for="name">Nombre
+            <input class="input-style" type="text" id="name" name="name" />
+        </label>
+
+        <label for="lastName">Apellido
+            <input class="input-style" type="text" id="lastName" name="lastName" />
+        </label>
+        <label for="birth">Fecha de Nacimiento
+            <input class="input-style" type="text" id="birth" name="birth"/>
+        </label>
+        <label for="gender">Genero
+            <input class="input-style" type="text" id="gender" name="gender" />
+        </label>
+        <label for="address">Domicilio
+            <input class="input-style" type="text" id="address" name="address" />
+        </label>
+        <label for="city">Ciudad
+            <input class="input-style" type="text" id="city" name="city" />
+        </label>
+        <label for="email">Correo Electrónico
+            <input class="input-style" type="email" id="email" name="email" />
+        </label>
+        <label for="phone">Teléfono
+            <input class="input-style" type="tel" id="phone" name="phone" 
+            pattern="^(?:(?:00)?549?)?0?(?:11|[2368]\d)(?:(?=\d{0,2}15)\d{2})??\d{8}$" />
+        </label>
+
+        <div class="btn-div">
+            <input class="btn-style" id="btn-submit-modify" type="submit" value="Aceptar" />
+            <input class="btn-style" id="btn-clean-modify" type="reset" value="Limpiar" />
+            <input class="btn-style" type="button" value="Cancelar" id="close-modal-modify" />
+        </div>
+        
+    </form>
+</dialog>
 <!----------------------------------------------------->
 
 <!----------- Modal donde Elimina usuarios ----------->
@@ -84,7 +128,7 @@
     <form action="" method="dialog" id="form">
 
         <label for="id">Id
-            <input class="input-style" type="text" id="id" name="id" required/>
+            <input class="input-style" type="number" id="id-del" name="id" required/>
         </label>       
 
         <div class="btn-div">
