@@ -58,8 +58,8 @@ export class User {
         })
             .then(res => res.json())
             .then(data => console.log(data))
-            .catch(err => console.error(err));
-    }
+            .catch(err => console.error(err));            
+    };
 
     actualizaDato(id, user) {
         fetch(URL + `/${id}`, {

@@ -1,18 +1,19 @@
-//import {User} from "./classUser.js";
+// import {User} from "./classUser.js";
 
-//URL = 'https://647a6c47d2e5b6101db057cf.mockapi.io/users'
+// URL = 'https://647a6c47d2e5b6101db057cf.mockapi.io/users'
 
-//const user = new User('Juan Pablo', 'Gonzalez', '12/06/80', 'Cis', 'Libertad Av. 120', 'Benito Juarez', 'jpgonza@jijimail.com', //112468097, '3')
+// const user = new User('Juan Pablo', 'Gonzalez', '12/06/80', 'Cis', 'Libertad Av. 120', 'Benito Juarez', 'jpgonza@jijimail.com', 112468097, '3')
 
 // const user2 = {
 //     name: 'Juan P.',
 //     lastName: 'Alvarez'}
 
 //user.anadirDato(user);
-//user.eliminaDato(24);
+//user.eliminaDato(27);
+
 
 //user1.actualizaDato(25, user2);
-//user1.buscaPorId(10)
+//user.buscaPorId(24)
 //user.dataApi(URL)
 
 // Funcion Actualiza datos de Usuario Existente.

@@ -47,6 +47,10 @@ dialog:modal {
     width: 230px;
 }
 
+#id {
+    width: 263px;
+}
+
 #gender {
     width: 234px;
 }
@@ -88,4 +92,9 @@ dialog:modal {
 
 #titles-table {
     background-color: #a5eea0;
+}
+
+#search {
+    margin-top: 40px;
+    width: 30em;
 }
