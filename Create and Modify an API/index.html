@@ -3,7 +3,6 @@
 
 <head>
     <link rel="stylesheet" href="style.css" />
-    <script type="module" src="./index.js" defer></script>
     <script type="module" src="./funcionalidades.js" defer></script>
 </head>
 
@@ -21,13 +20,16 @@
     </header>
 
     <div id="btn-data">
-        <button id="open-modal-add" class="btn-other-style">Add</button>
+        <button class="btn-other-style" id="open-modal-add">Add</button>
+
         <button class="btn-other-style" id="open-modal-modify">Modify</button>
+
         <button class="btn-other-style" id="open-modal-del">Delete</button>
+
         <button class="btn-other-style" id="update">Update</button>
     </div>
     
-    <input type="search" id="search" placeholder="Busqueda">
+    <!-- <input type="search" id="search" placeholder="Busqueda"> -->
 
 <!----------- Modal donde Añade usuarios -------------->
 
@@ -35,13 +37,11 @@
         <form action="" method="dialog" id="form">
 
             <label for="id">Id
-                <input class="input-style" type="text" id="id" name="id" required/>
-            </label>  
-                
+                <input class="input-style" type="text" id="id" name="id"/>
+            </label>                
             <label for="name">Nombre
                 <input class="input-style" type="text" id="name" name="name" required/>
             </label>
-
             <label for="lastName">Apellido
                 <input class="input-style" type="text" id="lastName" name="lastName" required/>
             </label>
@@ -82,35 +82,22 @@
     <form action="" method="dialog" id="form">
 
         <label for="id">Id
-            <input class="input-style" type="number" id="id" name="id" />
-        </label>  
+            <input class="input-style" type="number" id="id-modify" name="id"/>
+        </label>
 
         <label for="name">Nombre
-            <input class="input-style" type="text" id="name" name="name" />
+            <input class="input-style" type="text" id="name-modify" name="name"/>
         </label>
 
         <label for="lastName">Apellido
-            <input class="input-style" type="text" id="lastName" name="lastName" />
-        </label>
-        <label for="birth">Fecha de Nacimiento
-            <input class="input-style" type="text" id="birth" name="birth"/>
+            <input class="input-style" type="text" id="lastName-modify" name="lastName"/>
         </label>
         <label for="gender">Genero
-            <input class="input-style" type="text" id="gender" name="gender" />
-        </label>
-        <label for="address">Domicilio
-            <input class="input-style" type="text" id="address" name="address" />
+            <input class="input-style" type="text" id="gender-modify" name="gender"/>
         </label>
         <label for="city">Ciudad
-            <input class="input-style" type="text" id="city" name="city" />
-        </label>
-        <label for="email">Correo Electrónico
-            <input class="input-style" type="email" id="email" name="email" />
-        </label>
-        <label for="phone">Teléfono
-            <input class="input-style" type="tel" id="phone" name="phone" 
-            pattern="^(?:(?:00)?549?)?0?(?:11|[2368]\d)(?:(?=\d{0,2}15)\d{2})??\d{8}$" />
-        </label>
+            <input class="input-style" type="text" id="city-modify" name="city"/>
+        </label>        
 
         <div class="btn-div">
             <input class="btn-style" id="btn-submit-modify" type="submit" value="Aceptar" />
@@ -155,9 +142,7 @@
             <tbody id="data">
             </tbody>
         </table>
-    </div>
-
-    
+    </div>   
 
 </body>
 

@@ -18,8 +18,13 @@ export class User {
         fetch(URL) //Realizamos el fetch: Traemos los datos de la API.
             .then(res => res.json()) // Recibimos una respuesta y la convertimos en formato Json.
             .then(data => mostrarData(data)) // Tomamos la respuesta y la mostramos en consola.          
-            .catch(err => console.log(err)) // En caso de a ver un error lo mostramos en consola.
-    
+            .catch(err => error()) // En caso de a ver un error lo mostramos en consola.
+
+            function error() {
+                window.location.href="./error.html";
+            };
+
+            
         const mostrarData = (data) => {
             console.log(data);
             let body = '';
@@ -29,15 +34,27 @@ export class User {
             document.getElementById('data').innerHTML = body;
         }    
     }
+    //Funcion Que Ordena los Registros por nombre.
+    //NO FUNCIONA!
+    orderByName(data) {
+        data.sort(function(a, b) {
+            if(a.name > b.name) {
+                return 1;
+            }
+            if (a.name < b.name) {
+                return -1;
+            }
+            return 0
+        });
+    }
 
-
-
+    
     // Funcion que busca un registro por Id, que pasaremos como parametro.
     buscaPorId(id) {
         fetch(URL + `/${id}`)
             .then(res => res.json())
             .then(data => console.log(data))
-            .catch(err => console.error(err));
+            .catch(err => error());
     }
 
     // Funcion que elimina un registro dado por Id, por parametro.
@@ -47,7 +64,7 @@ export class User {
         })
             .then(res => res.json())
             .then(data => console.log(data))
-            .catch(err => console.error(err));
+            .catch(err => error());
     }
 
     anadirDato(user) {
@@ -58,7 +75,7 @@ export class User {
         })
             .then(res => res.json())
             .then(data => console.log(data))
-            .catch(err => console.error(err));            
+            .catch(err => error());            
     };
 
     actualizaDato(id, user) {
@@ -69,6 +86,6 @@ export class User {
         })
             .then(res => res.json())
             .then(data => console.log(data))
-            .catch(err => console.error(err));
+            .catch(err => error())
     };
 }

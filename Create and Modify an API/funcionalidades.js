@@ -1,11 +1,11 @@
-import { User } from "./classUser.js";
+import {User} from "./classUser.js";
 
 URL = 'https://647a6c47d2e5b6101db057cf.mockapi.io/users'
 
 const user = new User('Juan Pablo', 'Gonzalez', '12/06/80', 'Cis', 'Libertad Av. 120', 'Benito Juarez', 'jpgonza@jijimail.com', 112468097, '3')
 
 user.dataApi(URL)
-//user.eliminaDato(24)
+
 //-------------------------------------------------------------
 
 const openModalAdd = document.getElementById('open-modal-add');
@@ -15,16 +15,13 @@ const closeModalAdd = document.getElementById("close-modal-add");
 const submitAdd = document.getElementById("btn-submit-add");
 
 closeModalAdd.addEventListener("click", () => {
-    console.log('Boton Cierre de Modal Anda Perfecto');
     modalAdd.close();
 });
 
 cleanAdd.addEventListener('click', () => {
-    console.log('Boton Limpiar de Modal Anda Perfecto');
 })
 
 openModalAdd.addEventListener("click", () => {
-    console.log('Boton Apertura de Modal Anda Perfecto');
     modalAdd.showModal();
 });
 
@@ -46,48 +43,39 @@ submitAdd.addEventListener('click', () => {
 //-------------------------------------------------------------
 
 const openModalModify = document.getElementById('open-modal-modify');
-const cleanModify = document.getElementById('btn-clean-modify')
+const cleanModify = document.getElementById('btn-clean-modify');
 const modalModify = document.getElementById("modal-modify");
 const closeModalModify = document.getElementById("close-modal-modify");
 const submitModify = document.getElementById("btn-submit-modify");
 
 closeModalModify.addEventListener("click", () => {
-    console.log('Boton Cierre de Modal Anda Perfecto');
     modalModify.close();
 });
 
 cleanModify.addEventListener('click', () => {
-    console.log('Boton Limpiar de Modal Anda Perfecto');
 })
 
 openModalModify.addEventListener("click", () => {
-    console.log('Boton Apertura de Modal Anda Perfecto');
-    modalAdd.showModal();
+    modalModify.showModal();
 });
 
 submitModify.addEventListener('click', () => {
-    const id = document.querySelector('#id');
-    const name = document.querySelector('#name');
-    const lastName = document.querySelector('#lastName');
-    const birth = document.querySelector('#birth');
-    const gender = document.querySelector('#gender');
-    const address = document.querySelector('#address');
-    const city = document.querySelector('#city');
-    const email = document.querySelector('#email');
-    const phone = document.querySelector('#phone');
-    
+    const id = document.getElementById('id-modify');
+    const name = document.querySelector('#name-modify');
+    const lastName = document.querySelector('#lastName-modify');
+    const gender = document.querySelector('#gender-modify');
+    const city = document.querySelector('#city-modify');
+
     const user1 = {
+        id: id.value,
         name: name.value,
         lastName: lastName.value,
-        birth: birth.value,
         gender: gender.value,
-        address: address.value,
-        city: city.value,
-        email: email.value,
-        phone: phone.value
+        city: city.value        
     }
 
-    user.actualizaDato(id, user1)
+    user.actualizaDato(id.value, user1)
+    
 });
 
 //--------------------------------------------------------------
@@ -99,16 +87,13 @@ const submitDel = document.getElementById("btn-submit-del");
 const idDel = document.getElementById("id-del");
 
 closeModalDel.addEventListener("click", () => {
-    console.log('Boton Cierre de Modal Anda Perfecto');
     modalDel.close();
 });
 
 cleanDel.addEventListener('click', () => {
-    console.log('Boton Limpiar de Modal Anda Perfecto');
 })
 
 openModalDel.addEventListener("click", () => {
-    console.log('Boton Apertura de Modal Anda Perfecto');
     modalDel.showModal();
 });
 
@@ -118,32 +103,10 @@ submitDel.addEventListener('click', () => {
 
 //--------------------------------------------------------------
 
-const search = document.querySelector('#search');
-//const erase = document.querySelector('#erase');
 const update = document.querySelector('#update');
-
-search.addEventListener('click', () => {
-    console.log('Boton Search Anda Perfecto');
-});
-
-// erase.addEventListener('click', () => {
-//     console.log('Boton Erase Anda Perfecto');
-// });
 
 update.addEventListener('click', () => {
     user.dataApi(URL)
-    console.log('Boton Update Anda Perfecto');
 });
-
-//--------------------------------------------------------------
-
-// const form = document.getElementById("form");
-
-// form.addEventListener("submit", handleSubmit);
-
-// function handleSubmit() {
-//     const user = new FormData(form);
-//     console.log(user.get("name"));
-// }
 
 //--------------------------------------------------------------
